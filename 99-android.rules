@@ -23,7 +23,7 @@ SUBSYSTEM=="usb", ATTR{idVendor}=="091E", GROUP="sudo"
 #Glass
 SUBSYSTEM=="usb", ATTR{idVendor}=="0451", GROUP="sudo"
 #Google
-SUBSYSTEM==”usb”, ATTR{ idVendor }==”18d1”, MODE=”0777”, GROUP=”ADM”
+SUBSYSTEM=="usb", ATTR{ idVendor }=="18d1", MODE="0777", GROUP="ADM"
 #Haier
 SUBSYSTEM=="usb", ATTR{idVendor}=="201e", GROUP="sudo"
 #Hisense
@@ -71,7 +71,7 @@ SUBSYSTEM=="usb", ATTR{idVendor}=="0471", GROUP="sudo"
 #PMC-Sierra
 SUBSYSTEM=="usb", ATTR{idVendor}=="04da", GROUP="sudo"
 #Qualcomm
-SUBSYSTEM==”usb”, ATTR{ idVendor }==”05C6”, MODE=”0777”, GROUP=”ADM”
+SUBSYSTEM=="usb", ATTR{ idVendor }=="05C6", MODE="0777", GROUP="ADM"
 #Razer
 SUBSYSTEM=="usb", ATTR{idVendor}=="1532", GROUP="sudo"
 #Samsung
